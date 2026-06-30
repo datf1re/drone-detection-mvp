@@ -1,0 +1,26 @@
+# Конфигурация для обучения модели
+
+data:
+  sample_rate: 16000
+  window_duration: 2.0  # секунды
+  mel_bands: 128
+  mel_height: 128
+  mel_width: 128
+
+model:
+  architecture: resnet18
+  pretrained: false
+  num_classes: 1
+
+training:
+  batch_size: 32
+  epochs: 50
+  learning_rate: 0.001
+  early_stopping_patience: 10
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  splits: "data/splits/"
+  logs: "logs/"
+  checkpoints: "checkpoints/"
