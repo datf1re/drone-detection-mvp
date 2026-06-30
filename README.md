@@ -1,5 +1,8 @@
 # Drone Detection MVP 🚁
-
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow.svg)
 > Акустическая детекция и классификация БПЛА по звуку винтомоторной группы.
 
 ## 📋 О проекте
