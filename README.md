@@ -42,16 +42,18 @@ python src/infer.py --audio path/to/recording.wav
 ```
 
 ## 📊 Метрики
-ROC-AUC
-PR-AUC
+* ROC-AUC
+* PR-AUC
 
 ## 👥 Команда
+```
 Роль - Имя
 Тимлид - Андрей
 Data Engineer - Илья
 Data Scientist - Артем
 ML Engineer - Злата
 QA/Analyst - Света
+```
 
 ## 📄 Лицензия
 MIT
